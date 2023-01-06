@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "",
   "main": "main.js",
   "repository": {
@@ -10,9 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder build --win --publish never",
-    "deploy": "electron-builder build --win --publish always",
-    "deploy2": "set GH_TOKEN=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1~ && electron-builder --win --publish always"
+    "build": "electron-builder build  --win --publish never",
+    "deploy": "electron-builder build  --win --publish always"
   },
   "author": "",
   "license": "ISC",
